@@ -48,8 +48,7 @@ class HandsPublisher(Node):
                                        
                     #esse for passa pela quantidades de mão na tela setada como maximo 2 no momento
                     for hand_landmarks, handedness in zip(results.multi_hand_landmarks,results.multi_handedness):
-                        print("entrou aqui")
-                    
+                                            
                         if handedness.classification[0].label == "Right":
                             mp_drawing.draw_landmarks(
                             image, hand_landmarks, mp_hands.HAND_CONNECTIONS)

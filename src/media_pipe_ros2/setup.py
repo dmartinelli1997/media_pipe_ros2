@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker2 = media_pipe_ros2.hands_detector:main',
+            'hands_detector = media_pipe_ros2.hands_detector:main',
         ],
     },
 )
