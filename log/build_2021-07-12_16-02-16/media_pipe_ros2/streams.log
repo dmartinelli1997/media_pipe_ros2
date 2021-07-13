@@ -1,0 +1,24 @@
+[0.237s] Invoking command in '/home/ros2/media_pipe_ros2/src/media_pipe_ros2': PYTHONPATH=/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/media_pipe_ros2 build --build-base /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build install --prefix /home/ros2/media_pipe_ros2/install/media_pipe_ros2 --record /home/ros2/media_pipe_ros2/build/media_pipe_ros2/install.log --single-version-externally-managed
+[0.450s] running egg_info
+[0.451s] writing ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/PKG-INFO
+[0.451s] writing dependency_links to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/dependency_links.txt
+[0.452s] writing entry points to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/entry_points.txt
+[0.452s] writing requirements to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/requires.txt
+[0.452s] writing top-level names to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/top_level.txt
+[0.486s] reading manifest file '../../build/media_pipe_ros2/media_pipe_ros2.egg-info/SOURCES.txt'
+[0.486s] writing manifest file '../../build/media_pipe_ros2/media_pipe_ros2.egg-info/SOURCES.txt'
+[0.486s] running build
+[0.487s] running build_py
+[0.487s] copying media_pipe_ros2/hands_detector.py -> /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build/lib/media_pipe_ros2
+[0.487s] running install
+[0.488s] running install_lib
+[0.489s] copying /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build/lib/media_pipe_ros2/hands_detector.py -> /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2
+[0.489s] byte-compiling /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2/hands_detector.py to hands_detector.cpython-38.pyc
+[0.491s] running install_data
+[0.491s] running install_egg_info
+[0.493s] removing '/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2-0.0.0-py3.8.egg-info' (and everything under it)
+[0.493s] Copying ../../build/media_pipe_ros2/media_pipe_ros2.egg-info to /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2-0.0.0-py3.8.egg-info
+[0.494s] running install_scripts
+[0.512s] Installing talker2 script to /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/media_pipe_ros2
+[0.512s] writing list of installed files to '/home/ros2/media_pipe_ros2/build/media_pipe_ros2/install.log'
+[0.560s] Invoked command in '/home/ros2/media_pipe_ros2/src/media_pipe_ros2' returned '0': PYTHONPATH=/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/media_pipe_ros2 build --build-base /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build install --prefix /home/ros2/media_pipe_ros2/install/media_pipe_ros2 --record /home/ros2/media_pipe_ros2/build/media_pipe_ros2/install.log --single-version-externally-managed

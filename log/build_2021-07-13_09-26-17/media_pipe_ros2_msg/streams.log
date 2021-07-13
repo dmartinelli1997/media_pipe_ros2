@@ -1,0 +1,168 @@
+[0.334s] Invoking command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg -- -j8 -l8
+[0.930s] [  2%] Built target media_pipe_ros2_msg__cpp
+[0.962s] [ 12%] Built target media_pipe_ros2_msg__rosidl_generator_c
+[0.979s] [ 23%] Built target media_pipe_ros2_msg__rosidl_typesupport_cpp
+[1.004s] [ 44%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp
+[1.004s] [ 44%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c
+[1.006s] [ 55%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp
+[1.037s] [ 65%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c
+[1.069s] [ 76%] Built target media_pipe_ros2_msg__rosidl_typesupport_c
+[1.091s] [ 76%] Built target media_pipe_ros2_msg
+[1.113s] [ 78%] Built target media_pipe_ros2_msg__py
+[1.177s] [ 87%] Built target media_pipe_ros2_msg__python
+[1.238s] [ 91%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext
+[1.242s] [100%] Built target media_pipe_ros2_msg__rosidl_typesupport_c__pyext
+[1.243s] [100%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.259s] Invoked command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg -- -j8 -l8
+[1.346s] Invoking command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg
+[1.360s] -- Install configuration: ""
+[1.360s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/rosidl_interfaces/media_pipe_ros2_msg
+[1.360s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.360s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.361s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_generator_c__visibility_control.h
+[1.361s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human_list.h
+[1.362s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/point.h
+[1.363s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.363s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__functions.c
+[1.363s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.c
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.h
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__functions.h
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.h
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__functions.c
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__struct.h
+[1.364s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__functions.h
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__functions.c
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.h
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__functions.h
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__struct.h
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__struct.h
+[1.365s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.h
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.h
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.h
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.h
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human.h
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.sh
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.dsv
+[1.366s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_generator_c.so
+[1.367s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.367s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.367s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.368s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_c.h
+[1.368s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_fastrtps_c.h
+[1.368s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[1.369s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_fastrtps_c.h
+[1.370s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.370s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so
+[1.370s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.371s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.371s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.371s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_fastrtps_cpp.hpp
+[1.372s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_fastrtps_cpp.hpp
+[1.372s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.372s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/dds_fastrtps
+[1.374s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_cpp.hpp
+[1.375s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.386s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.c
+[1.387s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_c.h
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.c
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.c
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_introspection_c.h
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.c
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_introspection_c.h
+[1.388s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_introspection_c.h
+[1.389s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so
+[1.390s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_c.so
+[1.390s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.390s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.390s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__struct.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__traits.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__builder.hpp
+[1.391s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__builder.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__struct.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__traits.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__builder.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__traits.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__builder.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__traits.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__struct.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/point.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human_list.hpp
+[1.392s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.cpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.cpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.cpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.cpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_introspection_cpp.hpp
+[1.393s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so
+[1.400s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so
+[1.400s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.sh
+[1.400s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.dsv
+[1.401s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/__init__.py
+[1.440s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg
+[1.440s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks_s.c
+[1.440s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_point_s.c
+[1.440s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_list_s.c
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_s.c
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human.py
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_list.py
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks.py
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_point.py
+[1.441s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/__init__.py
+[1.464s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.466s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.467s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.469s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__python.so
+[1.469s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/Point.idl
+[1.469s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHuman.idl
+[1.469s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHumanList.idl
+[1.469s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/Point.msg
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHuman.msg
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHumanList.msg
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/package_run_dependencies/media_pipe_ros2_msg
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/parent_prefix_path/media_pipe_ros2_msg
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.sh
+[1.470s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.dsv
+[1.471s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.sh
+[1.471s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.dsv
+[1.471s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.bash
+[1.471s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.sh
+[1.471s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.zsh
+[1.472s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.dsv
+[1.472s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.dsv
+[1.472s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/packages/media_pipe_ros2_msg
+[1.480s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport.cmake
+[1.480s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport-noconfig.cmake
+[1.490s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.490s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.491s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport.cmake
+[1.491s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cppExport.cmake
+[1.498s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.498s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.511s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake-extras.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.512s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.513s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.513s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.513s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig.cmake
+[1.513s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig-version.cmake
+[1.513s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.xml
+[1.516s] Invoked command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg

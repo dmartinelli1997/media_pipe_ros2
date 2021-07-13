@@ -1,0 +1,195 @@
+[0.218s] Invoking command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg -- -j8 -l8
+[0.242s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.262s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.320s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.482s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.785s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.057s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.122s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.257s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.257s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.257s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.279s] -- Found PythonExtra: .so  
+[1.356s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.403s] -- Added test 'lint_cmake' to check CMake code style
+[1.404s] -- Added test 'xmllint' to check XML markup files
+[1.407s] -- Configuring done
+[1.488s] -- Generating done
+[1.490s] -- Build files have been written to: /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg
+[1.516s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.516s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__cpp[0m
+[1.527s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.792s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_generator_c[0m
+[1.811s] [  6%] Built target media_pipe_ros2_msg__cpp
+[1.818s] [  9%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.c.o[0m
+[1.822s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.824s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.824s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.042s] [ 22%] [32m[1mLinking C shared library libmedia_pipe_ros2_msg__rosidl_generator_c.so[0m
+[2.044s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp[0m
+[2.057s] [ 25%] [32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.cpp.o[0m
+[2.073s] [ 25%] Built target media_pipe_ros2_msg__rosidl_generator_c
+[2.082s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.082s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.136s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_cpp[0m
+[2.158s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp[0m
+[2.178s] [ 35%] [32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/media_pipe_ros2_msg/msg/mh_landmarks__type_support.cpp.o[0m
+[2.285s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_c[0m
+[2.298s] [ 38%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.c.o[0m
+[2.331s] [ 41%] [32m[1mLinking C shared library libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so[0m
+[2.342s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_c[0m
+[2.355s] [ 45%] [32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/media_pipe_ros2_msg/msg/mh_landmarks__type_support.cpp.o[0m
+[2.360s] [ 48%] [32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/media_pipe_ros2_msg/msg/detail/dds_fastrtps/mh_landmarks__type_support.cpp.o[0m
+[2.362s] [ 48%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c
+[2.447s] [ 51%] [32m[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_c.so[0m
+[2.480s] [ 51%] Built target media_pipe_ros2_msg__rosidl_typesupport_c
+[2.905s] [ 54%] [32m[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so[0m
+[2.944s] [ 54%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp
+[3.011s] [ 58%] [32m[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so[0m
+[3.052s] [ 58%] Built target media_pipe_ros2_msg__rosidl_typesupport_cpp
+[3.094s] [ 61%] [32m[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.311s] [ 61%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp
+[3.320s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.505s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c[0m
+[3.517s] [ 67%] [32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support_c.cpp.o[0m
+[3.806s] [ 70%] [32m[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so[0m
+[3.886s] [ 70%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c
+[3.895s] [35m[1mScanning dependencies of target media_pipe_ros2_msg[0m
+[3.905s] [ 70%] Built target media_pipe_ros2_msg
+[3.914s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__py[0m
+[3.923s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.252s] [ 74%] Built target media_pipe_ros2_msg__py
+[4.261s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__python[0m
+[4.521s] [ 77%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__python.dir/rosidl_generator_py/media_pipe_ros2_msg/msg/_mh_landmarks_s.c.o[0m
+[4.945s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/libmedia_pipe_ros2_msg__python.so[0m
+[4.979s] [ 80%] Built target media_pipe_ros2_msg__python
+[4.988s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_c__pyext[0m
+[4.988s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext[0m
+[4.988s] [35m[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.062s] [ 87%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.062s] [ 87%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.063s] [ 90%] [32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.130s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.131s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.132s] [100%] [32m[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.159s] [100%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext
+[5.160s] [100%] Built target media_pipe_ros2_msg__rosidl_typesupport_c__pyext
+[5.184s] [100%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.194s] Invoked command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --build /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg -- -j8 -l8
+[5.238s] Invoking command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg
+[5.246s] -- Install configuration: ""
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/rosidl_interfaces/media_pipe_ros2_msg
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_generator_c__visibility_control.h
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.c
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.h
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.h
+[5.246s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.h
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.h
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.sh
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.dsv
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_generator_c.so
+[5.247s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_generator_c.so" to ""
+[5.247s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.247s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.247s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_c.h
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.247s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so
+[5.247s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/dds_fastrtps
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_cpp.hpp
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so
+[5.248s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.248s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.248s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_c.h
+[5.249s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.c
+[5.249s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so
+[5.249s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so" to ""
+[5.249s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_c.so
+[5.249s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_c.so" to ""
+[5.249s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.249s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.249s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.hpp
+[5.249s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.249s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.hpp
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__builder.hpp
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__traits.hpp
+[5.250s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg
+[5.250s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg
+[5.250s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.cpp
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_cpp.hpp
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so
+[5.250s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so
+[5.250s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so" to ""
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.sh
+[5.250s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.dsv
+[5.251s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/__init__.py
+[5.278s] Compiling '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/__init__.py'...
+[5.283s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg
+[5.283s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks_s.c
+[5.283s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks.py
+[5.283s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/__init__.py
+[5.283s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.283s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.284s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.284s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.284s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.285s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[5.285s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__python.so
+[5.285s] -- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__python.so" to ""
+[5.285s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MHLandmarks.idl
+[5.285s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MHLandmarks.msg
+[5.285s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/package_run_dependencies/media_pipe_ros2_msg
+[5.285s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/parent_prefix_path/media_pipe_ros2_msg
+[5.286s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.sh
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.dsv
+[5.286s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.sh
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.dsv
+[5.286s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.bash
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.sh
+[5.286s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.zsh
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.dsv
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.dsv
+[5.286s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/packages/media_pipe_ros2_msg
+[5.286s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport-noconfig.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport-noconfig.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cppExport.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport.cmake
+[5.287s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_targets-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.288s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig.cmake
+[5.289s] -- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig-version.cmake
+[5.289s] -- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.xml
+[5.292s] Invoked command in '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic /usr/bin/cmake --install /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg

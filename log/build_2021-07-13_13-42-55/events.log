@@ -1,0 +1,410 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (media_pipe_ros2) JobQueued: {'identifier': 'media_pipe_ros2', 'dependencies': OrderedDict()}
+[0.000508] (media_pipe_ros2_msg) JobQueued: {'identifier': 'media_pipe_ros2_msg', 'dependencies': OrderedDict()}
+[0.001560] (media_pipe_ros2) JobStarted: {'identifier': 'media_pipe_ros2'}
+[0.088950] (media_pipe_ros2_msg) JobStarted: {'identifier': 'media_pipe_ros2_msg'}
+[0.100064] (-) TimerEvent: {}
+[0.201058] (-) TimerEvent: {}
+[0.301538] (-) TimerEvent: {}
+[0.371453] (media_pipe_ros2_msg) JobProgress: {'identifier': 'media_pipe_ros2_msg', 'progress': 'cmake'}
+[0.401807] (-) TimerEvent: {}
+[0.411395] (media_pipe_ros2_msg) JobProgress: {'identifier': 'media_pipe_ros2_msg', 'progress': 'build'}
+[0.415408] (media_pipe_ros2_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg', '--', '-j8', '-l8'], 'cwd': '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('SSH_AGENT_PID', '1514'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib:/home/ros2/dev_ws/install/tutorial_interfaces/lib:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3153'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install:/home/ros2/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:47308'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-Vostro-3480:@/tmp/.ICE-unix/1556,unix/ros2-Vostro-3480:/tmp/.ICE-unix/1556'), ('INVOCATION_ID', '7ef2caa22d1640b5b4305413716c77ec'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/python_parameters:/home/ros2/dev_ws/install/action_tutorials_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:170eda12-56a4-47ea-a03c-0625231f86d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages:/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ros2/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ros2/dev_ws/install/python_parameters/lib/python3.8/site-packages:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/action_tutorials_interfaces:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic')]), 'shell': False}
+[0.495742] (media_pipe_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/media_pipe_ros2', 'build', '--build-base', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2/build', 'install', '--prefix', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2', '--record', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2/media_pipe_ros2/src/media_pipe_ros2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros2', 'SSH_AGENT_PID': '1514', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib:/home/ros2/dev_ws/install/tutorial_interfaces/lib:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/ros2', 'OLDPWD': '/home/ros2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1332', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3153', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ros2/media_pipe_ros2/install:/home/ros2/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ros2', 'JOURNAL_STREAM': '8:47308', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ros2-Vostro-3480:@/tmp/.ICE-unix/1556,unix/ros2-Vostro-3480:/tmp/.ICE-unix/1556', 'INVOCATION_ID': '7ef2caa22d1640b5b4305413716c77ec', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/python_parameters:/home/ros2/dev_ws/install/action_tutorials_interfaces:/opt/ros/galactic', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:170eda12-56a4-47ea-a03c-0625231f86d8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/media_pipe_ros2/build/media_pipe_ros2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages:/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ros2/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ros2/dev_ws/install/python_parameters/lib/python3.8/site-packages:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/action_tutorials_interfaces'}, 'shell': False}
+[0.503414] (-) TimerEvent: {}
+[0.605626] (-) TimerEvent: {}
+[0.705981] (-) TimerEvent: {}
+[0.806475] (-) TimerEvent: {}
+[0.907314] (-) TimerEvent: {}
+[0.999104] (media_pipe_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.001645] (media_pipe_ros2) StdoutLine: {'line': b'writing ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/PKG-INFO\n'}
+[1.002555] (media_pipe_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/dependency_links.txt\n'}
+[1.003386] (media_pipe_ros2) StdoutLine: {'line': b'writing entry points to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/entry_points.txt\n'}
+[1.004180] (media_pipe_ros2) StdoutLine: {'line': b'writing requirements to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/requires.txt\n'}
+[1.004644] (media_pipe_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/media_pipe_ros2/media_pipe_ros2.egg-info/top_level.txt\n'}
+[1.007493] (-) TimerEvent: {}
+[1.108219] (-) TimerEvent: {}
+[1.209158] (-) TimerEvent: {}
+[1.309916] (-) TimerEvent: {}
+[1.379727] (media_pipe_ros2) StdoutLine: {'line': b"reading manifest file '../../build/media_pipe_ros2/media_pipe_ros2.egg-info/SOURCES.txt'\n"}
+[1.410017] (-) TimerEvent: {}
+[1.410611] (media_pipe_ros2) StdoutLine: {'line': b"writing manifest file '../../build/media_pipe_ros2/media_pipe_ros2.egg-info/SOURCES.txt'\n"}
+[1.411152] (media_pipe_ros2) StdoutLine: {'line': b'running build\n'}
+[1.411409] (media_pipe_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.411596] (media_pipe_ros2) StdoutLine: {'line': b'copying media_pipe_ros2/hands_detector.py -> /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build/lib/media_pipe_ros2\n'}
+[1.432501] (media_pipe_ros2) StdoutLine: {'line': b'running install\n'}
+[1.435732] (media_pipe_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.440781] (media_pipe_ros2) StdoutLine: {'line': b'copying /home/ros2/media_pipe_ros2/build/media_pipe_ros2/build/lib/media_pipe_ros2/hands_detector.py -> /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2\n'}
+[1.443369] (media_pipe_ros2) StdoutLine: {'line': b'byte-compiling /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2/hands_detector.py to hands_detector.cpython-38.pyc\n'}
+[1.451222] (media_pipe_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.453461] (media_pipe_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.461478] (media_pipe_ros2) StdoutLine: {'line': b"removing '/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.475150] (media_pipe_ros2) StdoutLine: {'line': b'Copying ../../build/media_pipe_ros2/media_pipe_ros2.egg-info to /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages/media_pipe_ros2-0.0.0-py3.8.egg-info\n'}
+[1.476875] (media_pipe_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.501706] (media_pipe_ros2) StdoutLine: {'line': b'Installing talker2 script to /home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/media_pipe_ros2\n'}
+[1.502137] (media_pipe_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/media_pipe_ros2/build/media_pipe_ros2/install.log'\n"}
+[1.510137] (-) TimerEvent: {}
+[1.524114] (media_pipe_ros2) CommandEnded: {'returncode': 0}
+[1.571009] (media_pipe_ros2) JobEnded: {'identifier': 'media_pipe_ros2', 'rc': 0}
+[1.604194] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.610295] (-) TimerEvent: {}
+[1.708788] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.709180] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.710367] (-) TimerEvent: {}
+[1.810682] (-) TimerEvent: {}
+[1.911049] (-) TimerEvent: {}
+[1.911660] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.992835] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.011184] (-) TimerEvent: {}
+[2.024532] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.111296] (-) TimerEvent: {}
+[2.211890] (-) TimerEvent: {}
+[2.312228] (-) TimerEvent: {}
+[2.412595] (-) TimerEvent: {}
+[2.414843] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.513098] (-) TimerEvent: {}
+[2.565863] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.613272] (-) TimerEvent: {}
+[2.714097] (-) TimerEvent: {}
+[2.814683] (-) TimerEvent: {}
+[2.844794] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.914839] (-) TimerEvent: {}
+[2.963525] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.975069] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.999712] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.000505] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[3.014968] (-) TimerEvent: {}
+[3.060435] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.060683] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.060826] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.111517] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.115219] (-) TimerEvent: {}
+[3.215575] (-) TimerEvent: {}
+[3.262397] (media_pipe_ros2_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.271312] (media_pipe_ros2_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.276576] (media_pipe_ros2_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.308897] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.315775] (-) TimerEvent: {}
+[3.416704] (-) TimerEvent: {}
+[3.517524] (-) TimerEvent: {}
+[3.618291] (-) TimerEvent: {}
+[3.719042] (-) TimerEvent: {}
+[3.800667] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.809582] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg\n'}
+[3.819146] (-) TimerEvent: {}
+[3.878530] (media_pipe_ros2_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.901777] (media_pipe_ros2_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.919244] (-) TimerEvent: {}
+[4.019652] (-) TimerEvent: {}
+[4.120003] (-) TimerEvent: {}
+[4.220356] (-) TimerEvent: {}
+[4.255832] (media_pipe_ros2_msg) StdoutLine: {'line': b'[  4%] Built target media_pipe_ros2_msg__cpp\n'}
+[4.267011] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.267299] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.267478] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.293779] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_generator_c\x1b[0m\n'}
+[4.320454] (-) TimerEvent: {}
+[4.346942] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__functions.c.o\x1b[0m\n'}
+[4.349903] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/media_pipe_ros2_msg/msg/detail/point__functions.c.o\x1b[0m\n'}
+[4.350204] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_generator_c.dir/rosidl_generator_c/media_pipe_ros2_msg/msg/detail/media_pipe_human__functions.c.o\x1b[0m\n'}
+[4.420620] (-) TimerEvent: {}
+[4.521001] (-) TimerEvent: {}
+[4.565132] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.611270] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/media_pipe_ros2_msg/msg/media_pipe_human_list__type_support.cpp.o\x1b[0m\n'}
+[4.613141] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/media_pipe_ros2_msg/msg/media_pipe_human__type_support.cpp.o\x1b[0m\n'}
+[4.616625] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/media_pipe_ros2_msg/msg/point__type_support.cpp.o\x1b[0m\n'}
+[4.621132] (-) TimerEvent: {}
+[4.675011] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.721271] (-) TimerEvent: {}
+[4.727140] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.821493] (-) TimerEvent: {}
+[4.922155] (-) TimerEvent: {}
+[4.944322] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/media_pipe_ros2_msg/msg/detail/point__type_support.cpp.o\x1b[0m\n'}
+[4.960170] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/media_pipe_ros2_msg/msg/detail/dds_fastrtps/point__type_support.cpp.o\x1b[0m\n'}
+[5.022392] (-) TimerEvent: {}
+[5.123318] (-) TimerEvent: {}
+[5.224111] (-) TimerEvent: {}
+[5.324872] (-) TimerEvent: {}
+[5.425620] (-) TimerEvent: {}
+[5.526379] (-) TimerEvent: {}
+[5.627187] (-) TimerEvent: {}
+[5.728006] (-) TimerEvent: {}
+[5.828851] (-) TimerEvent: {}
+[5.929576] (-) TimerEvent: {}
+[6.030510] (-) TimerEvent: {}
+[6.131379] (-) TimerEvent: {}
+[6.232269] (-) TimerEvent: {}
+[6.333402] (-) TimerEvent: {}
+[6.434168] (-) TimerEvent: {}
+[6.534818] (-) TimerEvent: {}
+[6.635712] (-) TimerEvent: {}
+[6.736430] (-) TimerEvent: {}
+[6.837371] (-) TimerEvent: {}
+[6.938190] (-) TimerEvent: {}
+[6.965075] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libmedia_pipe_ros2_msg__rosidl_generator_c.so\x1b[0m\n'}
+[6.974125] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/media_pipe_ros2_msg/msg/detail/dds_fastrtps/media_pipe_human__type_support.cpp.o\x1b[0m\n'}
+[6.975071] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.cpp.o\x1b[0m\n'}
+[7.038305] (-) TimerEvent: {}
+[7.138872] (-) TimerEvent: {}
+[7.239625] (-) TimerEvent: {}
+[7.343065] (-) TimerEvent: {}
+[7.352762] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 34%] Built target media_pipe_ros2_msg__rosidl_generator_c\n'}
+[7.413658] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.443173] (-) TimerEvent: {}
+[7.543684] (-) TimerEvent: {}
+[7.644160] (-) TimerEvent: {}
+[7.728339] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.cpp.o\x1b[0m\n'}
+[7.728871] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.734704] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/media_pipe_ros2_msg/msg/detail/dds_fastrtps/media_pipe_human_list__type_support.cpp.o\x1b[0m\n'}
+[7.735574] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.744290] (-) TimerEvent: {}
+[7.805555] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_c\x1b[0m\n'}
+[7.846162] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 44%] Built target media_pipe_ros2_msg__rosidl_typesupport_cpp\n'}
+[7.846541] (-) TimerEvent: {}
+[7.858230] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/media_pipe_ros2_msg/msg/media_pipe_human__type_support.cpp.o\x1b[0m\n'}
+[7.861218] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/media_pipe_ros2_msg/msg/media_pipe_human_list__type_support.cpp.o\x1b[0m\n'}
+[7.869589] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/media_pipe_ros2_msg/msg/point__type_support.cpp.o\x1b[0m\n'}
+[7.919905] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.946656] (-) TimerEvent: {}
+[7.987702] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 53%] Built target media_pipe_ros2_msg__rosidl_typesupport_c\n'}
+[8.046792] (-) TimerEvent: {}
+[8.147073] (-) TimerEvent: {}
+[8.182635] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.192036] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.235037] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.c.o\x1b[0m\n'}
+[8.237941] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/media_pipe_ros2_msg/msg/detail/point__type_support.c.o\x1b[0m\n'}
+[8.239033] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.c.o\x1b[0m\n'}
+[8.247270] (-) TimerEvent: {}
+[8.293680] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 61%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_cpp\n'}
+[8.315499] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.347099] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 63%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c\n'}
+[8.347464] (-) TimerEvent: {}
+[8.348741] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.447719] (-) TimerEvent: {}
+[8.548306] (-) TimerEvent: {}
+[8.558245] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 65%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.567886] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.648430] (-) TimerEvent: {}
+[8.748762] (-) TimerEvent: {}
+[8.849499] (-) TimerEvent: {}
+[8.873257] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.931853] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support_c.cpp.o\x1b[0m\n'}
+[8.932268] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/media_pipe_ros2_msg/msg/detail/point__type_support_c.cpp.o\x1b[0m\n'}
+[8.934239] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support_c.cpp.o\x1b[0m\n'}
+[8.949666] (-) TimerEvent: {}
+[9.050168] (-) TimerEvent: {}
+[9.150604] (-) TimerEvent: {}
+[9.251000] (-) TimerEvent: {}
+[9.293380] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.351134] (-) TimerEvent: {}
+[9.374159] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 76%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c\n'}
+[9.418910] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 76%] Built target media_pipe_ros2_msg\n'}
+[9.451280] (-) TimerEvent: {}
+[9.460108] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.551401] (-) TimerEvent: {}
+[9.651729] (-) TimerEvent: {}
+[9.752115] (-) TimerEvent: {}
+[9.852424] (-) TimerEvent: {}
+[9.952838] (-) TimerEvent: {}
+[10.010293] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 78%] Built target media_pipe_ros2_msg__py\n'}
+[10.053152] (-) TimerEvent: {}
+[10.074746] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__python\x1b[0m\n'}
+[10.135137] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__python.dir/rosidl_generator_py/media_pipe_ros2_msg/msg/_point_s.c.o\x1b[0m\n'}
+[10.138817] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__python.dir/rosidl_generator_py/media_pipe_ros2_msg/msg/_media_pipe_human_s.c.o\x1b[0m\n'}
+[10.139027] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__python.dir/rosidl_generator_py/media_pipe_ros2_msg/msg/_media_pipe_human_list_s.c.o\x1b[0m\n'}
+[10.153249] (-) TimerEvent: {}
+[10.253853] (-) TimerEvent: {}
+[10.354280] (-) TimerEvent: {}
+[10.455056] (-) TimerEvent: {}
+[10.556072] (-) TimerEvent: {}
+[10.656916] (-) TimerEvent: {}
+[10.757687] (-) TimerEvent: {}
+[10.821952] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/libmedia_pipe_ros2_msg__python.so\x1b[0m\n'}
+[10.857782] (-) TimerEvent: {}
+[10.859007] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 87%] Built target media_pipe_ros2_msg__python\n'}
+[10.870443] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.870646] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.870734] (media_pipe_ros2_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.889281] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.917616] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.924756] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/media_pipe_ros2_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/media_pipe_ros2_msg/_media_pipe_ros2_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.957942] (-) TimerEvent: {}
+[10.980477] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.006923] (media_pipe_ros2_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.011285] (media_pipe_ros2_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.017200] (media_pipe_ros2_msg) StdoutLine: {'line': b'[100%] Built target media_pipe_ros2_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[11.041918] (media_pipe_ros2_msg) StdoutLine: {'line': b'[100%] Built target media_pipe_ros2_msg__rosidl_typesupport_c__pyext\n'}
+[11.058104] (-) TimerEvent: {}
+[11.067542] (media_pipe_ros2_msg) StdoutLine: {'line': b'[100%] Built target media_pipe_ros2_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.079059] (media_pipe_ros2_msg) CommandEnded: {'returncode': 0}
+[11.146538] (media_pipe_ros2_msg) JobProgress: {'identifier': 'media_pipe_ros2_msg', 'progress': 'install'}
+[11.155868] (media_pipe_ros2_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg'], 'cwd': '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('SSH_AGENT_PID', '1514'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib:/home/ros2/dev_ws/install/tutorial_interfaces/lib:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3153'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install:/home/ros2/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:47308'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-Vostro-3480:@/tmp/.ICE-unix/1556,unix/ros2-Vostro-3480:/tmp/.ICE-unix/1556'), ('INVOCATION_ID', '7ef2caa22d1640b5b4305413716c77ec'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/python_parameters:/home/ros2/dev_ws/install/action_tutorials_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:170eda12-56a4-47ea-a03c-0625231f86d8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/media_pipe_ros2/build/media_pipe_ros2_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages:/home/ros2/media_pipe_ros2/install/media_pipe_ros2/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/ros2/dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ros2/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/ros2/dev_ws/install/python_parameters/lib/python3.8/site-packages:/home/ros2/dev_ws/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg:/home/ros2/dev_ws/install/tutorial_interfaces:/home/ros2/dev_ws/install/action_tutorials_interfaces:/home/ros2/media_pipe_ros2/install/media_pipe_ros2:/home/ros2/dev_ws/install/py_srvcli:/home/ros2/dev_ws/install/py_pubsub:/home/ros2/dev_ws/install/python_parameters:/opt/ros/galactic')]), 'shell': False}
+[11.158202] (-) TimerEvent: {}
+[11.164226] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.164639] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/rosidl_interfaces/media_pipe_ros2_msg\n'}
+[11.164818] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.164963] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.165101] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.165188] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human_list.h\n'}
+[11.165313] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/point.h\n'}
+[11.165435] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.165545] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__functions.c\n'}
+[11.165661] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.c\n'}
+[11.165799] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.h\n'}
+[11.165893] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__functions.h\n'}
+[11.166023] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__functions.h\n'}
+[11.166132] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__functions.c\n'}
+[11.166253] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__struct.h\n'}
+[11.166385] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__functions.h\n'}
+[11.166509] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__functions.c\n'}
+[11.166637] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.h\n'}
+[11.166721] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__functions.h\n'}
+[11.166871] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__struct.h\n'}
+[11.166961] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__struct.h\n'}
+[11.167040] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.h\n'}
+[11.167120] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.h\n'}
+[11.167231] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.h\n'}
+[11.167332] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.h\n'}
+[11.167418] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human.h\n'}
+[11.167534] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.sh\n'}
+[11.167695] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/library_path.dsv\n'}
+[11.167830] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_generator_c.so\n'}
+[11.167948] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_generator_c.so" to ""\n'}
+[11.168064] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.168182] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.168262] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.168339] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_c.h\n'}
+[11.168419] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_fastrtps_c.h\n'}
+[11.168498] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[11.168584] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_fastrtps_c.h\n'}
+[11.168664] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.168811] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.169258] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.169444] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.169577] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.169727] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.169892] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.169989] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.170088] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.170184] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/dds_fastrtps\n'}
+[11.170274] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.170365] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.188531] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.188932] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.189418] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.189560] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.189675] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.189811] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.189903] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.c\n'}
+[11.189990] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_c.h\n'}
+[11.190073] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.c\n'}
+[11.190157] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.c\n'}
+[11.190266] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[11.190346] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.c\n'}
+[11.190430] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_introspection_c.h\n'}
+[11.190533] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_introspection_c.h\n'}
+[11.190612] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so\n'}
+[11.190691] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.190801] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_c.so\n'}
+[11.191026] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_c.so" to ""\n'}
+[11.191141] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.191279] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.191370] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/mh_landmarks.hpp\n'}
+[11.191535] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human.hpp\n'}
+[11.191652] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.191745] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__struct.hpp\n'}
+[11.191879] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__traits.hpp\n'}
+[11.192000] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__struct.hpp\n'}
+[11.192116] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__builder.hpp\n'}
+[11.192223] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__builder.hpp\n'}
+[11.192333] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__struct.hpp\n'}
+[11.192437] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__traits.hpp\n'}
+[11.192556] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__builder.hpp\n'}
+[11.192680] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__traits.hpp\n'}
+[11.192796] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__builder.hpp\n'}
+[11.192911] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__traits.hpp\n'}
+[11.193028] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__struct.hpp\n'}
+[11.193136] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/point.hpp\n'}
+[11.193248] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/media_pipe_human_list.hpp\n'}
+[11.193331] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg\n'}
+[11.193409] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg\n'}
+[11.193486] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail\n'}
+[11.193562] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.193640] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__type_support.cpp\n'}
+[11.193718] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.193820] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/mh_landmarks__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.193905] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human__type_support.cpp\n'}
+[11.193983] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/point__type_support.cpp\n'}
+[11.194059] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__type_support.cpp\n'}
+[11.194136] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/include/media_pipe_ros2_msg/msg/detail/media_pipe_human_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.203196] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.203643] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.213377] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so\n'}
+[11.213641] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.213776] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.sh\n'}
+[11.213909] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/pythonpath.dsv\n'}
+[11.214029] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/__init__.py\n'}
+[11.258327] (-) TimerEvent: {}
+[11.261627] (media_pipe_ros2_msg) StdoutLine: {'line': b"Compiling '/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/__init__.py'...\n"}
+[11.266264] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg\n'}
+[11.266545] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks_s.c\n'}
+[11.266936] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_point_s.c\n'}
+[11.267076] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_list_s.c\n'}
+[11.267166] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_s.c\n'}
+[11.267244] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human.py\n'}
+[11.267320] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_media_pipe_human_list.py\n'}
+[11.267421] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_mh_landmarks.py\n'}
+[11.267486] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/_point.py\n'}
+[11.267581] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/msg/__init__.py\n'}
+[11.301057] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.303199] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.305318] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.307400] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.308780] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.310541] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/python3.8/site-packages/media_pipe_ros2_msg/media_pipe_ros2_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.311510] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__python.so\n'}
+[11.312495] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/lib/libmedia_pipe_ros2_msg__python.so" to ""\n'}
+[11.313438] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/Point.idl\n'}
+[11.314420] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHuman.idl\n'}
+[11.315108] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHumanList.idl\n'}
+[11.315993] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/Point.msg\n'}
+[11.316619] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHuman.msg\n'}
+[11.317403] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/msg/MediaPipeHumanList.msg\n'}
+[11.318348] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/package_run_dependencies/media_pipe_ros2_msg\n'}
+[11.318845] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/parent_prefix_path/media_pipe_ros2_msg\n'}
+[11.319492] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.sh\n'}
+[11.320215] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/ament_prefix_path.dsv\n'}
+[11.320960] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.sh\n'}
+[11.321359] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/environment/path.dsv\n'}
+[11.321679] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.bash\n'}
+[11.322081] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.sh\n'}
+[11.322400] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.zsh\n'}
+[11.322742] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/local_setup.dsv\n'}
+[11.323063] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.dsv\n'}
+[11.323365] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/ament_index/resource_index/packages/media_pipe_ros2_msg\n'}
+[11.328924] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport.cmake\n'}
+[11.329645] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.338962] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.339374] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.339802] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport.cmake\n'}
+[11.340146] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.344039] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_generator_cppExport.cmake\n'}
+[11.344451] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.344628] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.348788] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport.cmake\n'}
+[11.349029] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Installing: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.349187] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.349387] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.349536] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.349692] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.349811] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.349914] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.350021] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.350126] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig.cmake\n'}
+[11.350225] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/cmake/media_pipe_ros2_msgConfig-version.cmake\n'}
+[11.350321] (media_pipe_ros2_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/media_pipe_ros2/install/media_pipe_ros2_msg/share/media_pipe_ros2_msg/package.xml\n'}
+[11.353969] (media_pipe_ros2_msg) CommandEnded: {'returncode': 0}
+[11.358395] (-) TimerEvent: {}
+[11.457335] (media_pipe_ros2_msg) JobEnded: {'identifier': 'media_pipe_ros2_msg', 'rc': 0}
+[11.458530] (-) TimerEvent: {}
+[11.458697] (-) EventReactorShutdown: {}

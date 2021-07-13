@@ -1,0 +1,2 @@
+int32 num_humans
+MediaPipeHuman human_list
