@@ -3,6 +3,24 @@
 ## About The Project
 ROS2 package that utilizes the MediaPipe library.
 https://mediapipe.dev/
+
+Functionalities:
+- [ ] Face Detection
+- [ ] Face Mesh
+- [ ] Iris
+- [x] Hands
+- [ ] Pose
+- [ ] Holistic
+- [ ] Selfie Segmentation
+- [ ] Hair Segmentation
+- [ ] Object Detection
+- [ ] Box Tracking
+- [ ] Instant Motion Tracking
+- [ ] Objectron
+- [ ] KNIFT
+- [ ] AutoFlip
+- [ ] MediaSequence
+- [ ] YouTube 8M
 <!-- GETTING STARTED -->
 ## Getting Started
 
