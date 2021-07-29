@@ -6,11 +6,11 @@ https://mediapipe.dev/
 
 Functionalities:
 - [ ] Face Detection
-- [ ] Face Mesh
+- [x] Face Mesh
 - [ ] Iris
 - [x] Hands
-- [ ] Pose
-- [ ] Holistic
+- [x] Pose
+- [x] Holistic
 - [ ] Selfie Segmentation
 - [ ] Hair Segmentation
 - [ ] Object Detection
