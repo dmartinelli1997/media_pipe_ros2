@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'hands_detector = media_pipe_ros2.hands_detector:main',
+            'pose_detector = media_pipe_ros2.pose_detector:main',
+            'face_mesh_detector = media_pipe_ros2.face_mesh_detector:main',
+            'holistic_detector = media_pipe_ros2.holistic_detector:main',
         ],
     },
 )

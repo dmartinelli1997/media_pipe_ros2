@@ -10,9 +10,14 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Point.msg"
-  "msg/MediaPipeHuman.msg"
-  "msg/MediaPipeHumanList.msg"
+  "msg/HandPoint.msg"
+  "msg/MediaPipeHumanHand.msg"
+  "msg/MediaPipeHumanHandList.msg"
+  "msg/PosePoint.msg"
+  "msg/MediaPipeHumanPoseList.msg"
+  "msg/FaceMeshPoint.msg"
+  "msg/MediaPipeHumanFaceMeshList.msg"
+  "msg/MediaPipeHumanHolisticList.msg"
  )
 # uncomment the following section in order to fill in
 # further dependencies manually.

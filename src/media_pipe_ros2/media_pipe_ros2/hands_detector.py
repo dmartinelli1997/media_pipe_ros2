@@ -2,7 +2,8 @@ import rclpy
 import cv2
 import mediapipe as mp
 from rclpy.node import Node
-from media_pipe_ros2_msg.msg import Point,MediaPipeHuman,MediaPipeHumanList                            
+from media_pipe_ros2_msg.msg import HandPoint,MediaPipeHumanHand,MediaPipeHumanHandList
+                            
 
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
@@ -12,13 +13,13 @@ class HandsPublisher(Node):
 
     def __init__(self):
         super().__init__('mediapipe_publisher')
-        self.publisher_ = self.create_publisher(MediaPipeHumanList, '/mediapipe/human_list', 10)
+        self.publisher_ = self.create_publisher(MediaPipeHumanHandList, '/mediapipe/human_hand_list', 10)
         
 
     def getimage_callback(self):
-        mediapipehumanlist = MediaPipeHumanList() 
-        mediapipehuman = MediaPipeHuman()
-        points = Point()
+        mediapipehumanlist = MediaPipeHumanHandList() 
+        mediapipehuman = MediaPipeHumanHand()
+        points = HandPoint()
 
         with mp_hands.Hands(
                 static_image_mode=False,
@@ -84,8 +85,8 @@ class HandsPublisher(Node):
                                 index_point = index_point +1
                             hand_number_screen = hand_number_screen +1
 
-                    mediapipehumanlist.human_list.right_hand_key_points = mediapipehuman.right_hand_key_points
-                    mediapipehumanlist.human_list.left_hand_key_points = mediapipehuman.left_hand_key_points
+                    mediapipehumanlist.human_hand_list.right_hand_key_points = mediapipehuman.right_hand_key_points
+                    mediapipehumanlist.human_hand_list.left_hand_key_points = mediapipehuman.left_hand_key_points
                     mediapipehumanlist.num_humans = 1
                     self.publisher_.publish(mediapipehumanlist)
                 else: # responsavel por mandar 0 nos topicos quando as duas maos nao estao na tela
@@ -102,8 +103,8 @@ class HandsPublisher(Node):
                         mediapipehuman.left_hand_key_points[index_point].z = 0.0
                         index_point = index_point + 1 
 
-                    mediapipehumanlist.human_list.right_hand_key_points = mediapipehuman.right_hand_key_points
-                    mediapipehumanlist.human_list.left_hand_key_points = mediapipehuman.left_hand_key_points
+                    mediapipehumanlist.human_hand_list.right_hand_key_points = mediapipehuman.right_hand_key_points
+                    mediapipehumanlist.human_hand_list.left_hand_key_points = mediapipehuman.left_hand_key_points
                     mediapipehumanlist.num_humans = 1
                     self.publisher_.publish(mediapipehumanlist)
 
